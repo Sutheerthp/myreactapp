@@ -17,7 +17,7 @@ export default function Home() {
        onChange={(event) => setName(event.target.value)}
        placeholder="name" />  
     <h1>{router.query.name
-      ? `hello, ${router.query.name}`
+      ? `hai, ${router.query.name}`
       : "i dont know your name"}
     </h1>
   <br/><p>{sum} ,, {name}</p>
