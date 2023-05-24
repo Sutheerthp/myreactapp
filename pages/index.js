@@ -12,7 +12,7 @@ export default function Home() {
   return  (
   <div>
     <h1>{router.query.name
-      ? `hello, ${router.query.name}`
+      ? `hai, ${router.query.name}`
       : "i dont know your name"}
     </h1>
   <br/><p>{sum}</p>
