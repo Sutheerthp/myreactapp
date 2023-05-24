@@ -1,6 +1,7 @@
 :root {
   --max-width: 1100px;
-  --border-radius: 12px;
+  --border-radius: 12px; 
+
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
@@ -83,6 +84,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
 }
 
 body {
@@ -97,7 +99,7 @@ body {
 
 p{
   font-size: 5rem;
-  color: #09f51033;
+  color: #7af60533;
   font-style: calc(10);
 }
 a {
@@ -107,6 +109,6 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme:var(--secondary-glow);
   }
 }
